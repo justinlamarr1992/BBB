@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--background);
   color: black;
 }
 header {
@@ -26,7 +26,7 @@ img {
   grid-column: 2/4;
 }
 .social {
-  color: black;
+  color: Black;
 }
 .social1 {
   grid-row: 4/5;

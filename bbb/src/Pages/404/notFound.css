@@ -1,0 +1,23 @@
+body {
+  background-color: White;
+  color: Black;
+}
+header {
+  display: grid;
+  grid-template-columns: 5% 45% 45% 5%;
+  grid-template-rows: repeat(4, auto);
+  justify-items: center;
+}
+.font {
+  font-family: freshmarker, serif;
+  font-size: 50px;
+  grid-row: 1/2;
+  grid-column: 2/4;
+  margin-bottom: 0;
+}
+
+img {
+  width: 40%;
+  grid-row: 2/3;
+  grid-column: 2/4;
+}
